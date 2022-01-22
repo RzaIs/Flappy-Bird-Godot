@@ -1,0 +1,10 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://src/ObstacleGenerator.cs" type="Script" id=1]
+[ext_resource path="res://src/Tube.tscn" type="PackedScene" id=2]
+[ext_resource path="res://src/PointArea.tscn" type="PackedScene" id=3]
+
+[node name="ObstacleGenerator" type="Node2D"]
+script = ExtResource( 1 )
+tubeScene = ExtResource( 2 )
+pointAreaScene = ExtResource( 3 )
